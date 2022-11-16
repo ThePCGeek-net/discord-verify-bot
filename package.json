@@ -1,0 +1,25 @@
+{
+  "name": "user-verify-bot",
+  "version": "1.0.0",
+  "description": "Discord verify bot",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon .",
+    "start": "node ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@gitlab.com:thepcgeek/user-verify-bot.git"
+  },
+  "author": "ThePCGeek",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.20",
+    "standard-version": "^9.5.0"
+  },
+  "dependencies": {
+    "discord.js": "^14.6.0",
+    "dotenv": "^16.0.3"
+  }
+}
